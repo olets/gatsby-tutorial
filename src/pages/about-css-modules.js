@@ -1,3 +1,13 @@
+/*
+@todo [css-in-js] do the gatsby emotion tutorial
+@body https://www.gatsbyjs.org/docs/emotion/
+*/
+
+/*
+@todo [css-in-js] do the gatsby styled components tutorial
+@body https://www.gatsbyjs.org/docs/styled-components/
+*/
+
 import React from "react"
 import styles from "./about-css-modules.module.css"
 import Container from "../components/container"
@@ -7,7 +17,7 @@ const User = props => (
   <div className={styles.user}>
     <img src={props.avatar} className={styles.avatar} alt=""/>
     <div className={styles.description}>
-      <h2 classNames={styles.username}>{props.username}</h2>
+      <h2 className={styles.username}>{props.username}</h2>
       <p className={styles.excerpt}>{props.excerpt}</p>
     </div>
   </div>
